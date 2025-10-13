@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\gui_qlnh\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|solutionrelative:frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\gui_qlnh\\frmquanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|solutionrelative:frmquanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\gui_qlnh\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\gui_qlnh\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|solutionrelative:frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\frmvaitro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|solutionrelative:frmvaitro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\gui_qlnh\\frmquanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|solutionrelative:frmquanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\gui_qlnh\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\gui_qlnh\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13130ADD-98A8-4B07-8690-CC091F674B82}|GUI_QLNH.csproj|solutionrelative:frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B96A87-83D8-4154-8535-393CB4FC42D4}|..\\BLL_QLNH\\BLL_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\bll_qlnh\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{150AF1F2-FAC5-4CBD-ADE6-B8316D52B7E6}|..\\DAL_QLNH\\DAL_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\dal_qlnh\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77ABDFF-ABF4-4BF1-87FD-1D50402108D2}|..\\DTO_QLNH\\DTO_QLNH.csproj|c:\\users\\phucl\\onedrive\\desktop\\quanlynhahang_04\\dto_qlnh\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\frmLogin.cs [Design]",
+              "RelativeToolTip": "frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T08:23:10.755Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmQuanLyNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmQuanLyNhanVien.cs",
+              "RelativeDocumentMoniker": "FrmQuanLyNhanVien.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmQuanLyNhanVien.cs",
+              "RelativeToolTip": "FrmQuanLyNhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T07:49:41.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmVaiTro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmVaiTro.cs",
+              "RelativeDocumentMoniker": "FrmVaiTro.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmVaiTro.cs [Design]",
+              "RelativeToolTip": "FrmVaiTro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T14:20:15.603Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "FrmMenu.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmMenu.cs [Design]",
+              "RelativeToolTip": "FrmMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T02:55:04.381Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmThanhToan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmThanhToan.cs",
+              "RelativeDocumentMoniker": "FrmThanhToan.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmThanhToan.cs [Design]",
+              "RelativeToolTip": "FrmThanhToan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T08:42:58.33Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmQuanLyNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmQuanLyNhanVien.cs",
+              "RelativeDocumentMoniker": "FrmQuanLyNhanVien.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmQuanLyNhanVien.cs [Design]",
+              "RelativeToolTip": "FrmQuanLyNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T07:35:15.987Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\frmLogin.cs",
+              "RelativeToolTip": "frmLogin.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T08:23:05.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "FrmMenu.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\GUI_QLNH\\FrmMenu.cs",
+              "RelativeToolTip": "FrmMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T02:54:25.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\DTO_QLNH\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\DTO_QLNH\\Class1.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\DTO_QLNH\\Class1.cs",
+              "RelativeToolTip": "..\\DTO_QLNH\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T00:14:05.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\BLL_QLNH\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\BLL_QLNH\\Class1.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\BLL_QLNH\\Class1.cs",
+              "RelativeToolTip": "..\\BLL_QLNH\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T00:13:45.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\DAL_QLNH\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\DAL_QLNH\\Class1.cs",
+              "ToolTip": "C:\\Users\\phucl\\OneDrive\\Desktop\\QuanLyNhaHang_04\\DAL_QLNH\\Class1.cs",
+              "RelativeToolTip": "..\\DAL_QLNH\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T00:12:34.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

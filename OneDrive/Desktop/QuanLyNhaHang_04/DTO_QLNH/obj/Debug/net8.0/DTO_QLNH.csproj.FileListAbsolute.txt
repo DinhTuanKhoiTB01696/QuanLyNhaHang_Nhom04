@@ -1,0 +1,11 @@
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\bin\Debug\net8.0\DTO_QLNH.deps.json
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\bin\Debug\net8.0\DTO_QLNH.dll
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\bin\Debug\net8.0\DTO_QLNH.pdb
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.AssemblyInfoInputs.cache
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.AssemblyInfo.cs
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.csproj.CoreCompileInputs.cache
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.dll
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\refint\DTO_QLNH.dll
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.pdb
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\ref\DTO_QLNH.dll
