@@ -1,0 +1,17 @@
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\bin\Debug\net8.0\BLL_QLNH.deps.json
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\bin\Debug\net8.0\BLL_QLNH.dll
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\bin\Debug\net8.0\BLL_QLNH.pdb
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\bin\Debug\net8.0\DAL_QLNH.dll
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\bin\Debug\net8.0\DTO_QLNH.dll
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\bin\Debug\net8.0\DAL_QLNH.pdb
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\bin\Debug\net8.0\DTO_QLNH.pdb
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\BLL_QLNH.csproj.AssemblyReference.cache
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\BLL_QLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\BLL_QLNH.AssemblyInfoInputs.cache
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\BLL_QLNH.AssemblyInfo.cs
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\BLL_QLNH.csproj.CoreCompileInputs.cache
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\BLL_QLNH.csproj.Up2Date
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\BLL_QLNH.dll
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\refint\BLL_QLNH.dll
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\BLL_QLNH.pdb
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\BLL_QLNH\obj\Debug\net8.0\ref\BLL_QLNH.dll

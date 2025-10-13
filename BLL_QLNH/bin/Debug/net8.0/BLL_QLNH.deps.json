@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BLL_QLNH/1.0.0": {
+        "dependencies": {
+          "DAL_QLNH": "1.0.0",
+          "DTO_QLNH": "1.0.0"
+        },
+        "runtime": {
+          "BLL_QLNH.dll": {}
+        }
+      },
+      "DAL_QLNH/1.0.0": {
+        "dependencies": {
+          "DTO_QLNH": "1.0.0"
+        },
+        "runtime": {
+          "DAL_QLNH.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DTO_QLNH/1.0.0": {
+        "runtime": {
+          "DTO_QLNH.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BLL_QLNH/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL_QLNH/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO_QLNH/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
