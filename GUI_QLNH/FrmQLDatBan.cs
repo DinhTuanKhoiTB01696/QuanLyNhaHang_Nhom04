@@ -17,6 +17,9 @@ namespace GUI_QLNH
             InitializeComponent();
         }
 
- 
+        private void FrmQLDatBan_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -7,18 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BLL_QLKS;
-using DAL_QLKS;
-using DTO_QLKS;
-using Microsoft.IdentityModel.Tokens;
+//using BLL_QLKS;
+//using DAL_QLKS;
+//using DTO_QLKS;
+//using Microsoft.IdentityModel.Tokens;
 
 
 namespace GUI_QLKS
 {
     public partial class frmQLNhanVien : Form
     {
-        BUSNhanVien busNhanVien = new BUSNhanVien();
-        DALNhanVien dal = new DALNhanVien();
+        //BUSNhanVien busNhanVien = new BUSNhanVien();
+        //DALNhanVien dal = new DALNhanVien();
         public frmQLNhanVien()
         {
             InitializeComponent();
@@ -29,14 +29,14 @@ namespace GUI_QLKS
         {
             ClearForm();
             LoadDanhSachNhanVien();
-            txtMaNV.Text = dal.generateMaNhanVien();
+            //txtMaNV.Text = dal.generateMaNhanVien();
         }
         private void LoadDanhSachNhanVien()
         {
 
             dgvNhanVien.DataSource = null;
 
-            dgvNhanVien.DataSource = busNhanVien.GetNhanVienList();
+            //dgvNhanVien.DataSource = busNhanVien.GetNhanVienList();
             dgvNhanVien.Columns["MaNV"].HeaderText = "Mã Nhân Viên";
             dgvNhanVien.Columns["HoTen"].HeaderText = "Họ Tên";
             dgvNhanVien.Columns["Email"].HeaderText = "Email";
@@ -91,30 +91,30 @@ namespace GUI_QLKS
                 return;
             }
 
-            NhanVien nv = new NhanVien
-            {
-                MaNV = maNV,
-                HoTen = hoTen,
-                Email = email,
-                MatKhau = matKhau,
-                DiaChi = diachi,
-                GioiTinh = gioitinh,
-                VaiTro = vaiTro,
-                TinhTrang = trangThai
-            };
-            string result = busNhanVien.InsertNhanVien(nv);
+            //NhanVien nv = new NhanVien
+            //{
+            //    MaNV = maNV,
+            //    HoTen = hoTen,
+            //    Email = email,
+            //    MatKhau = matKhau,
+            //    DiaChi = diachi,
+            //    GioiTinh = gioitinh,
+            //    VaiTro = vaiTro,
+            //    TinhTrang = trangThai
+            //};
+            //string result = busNhanVien.InsertNhanVien(nv);
 
-            if (string.IsNullOrEmpty(result))
-            {
-                MessageBox.Show("Thêm thông tin thành công");
-                ClearForm();
-                LoadDanhSachNhanVien();
-                txtMaNV.Text = dal.generateMaNhanVien();
-            }
-            else
-            {
-                MessageBox.Show(result);
-            }
+            //if (string.IsNullOrEmpty(result))
+            //{
+            //    MessageBox.Show("Thêm thông tin thành công");
+            //    ClearForm();
+            //    LoadDanhSachNhanVien();
+            //    txtMaNV.Text = dal.generateMaNhanVien();
+            //}
+            //else
+            //{
+            //    MessageBox.Show(result);
+            //}
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -143,29 +143,29 @@ namespace GUI_QLKS
                 return;
             }
 
-            NhanVien nv = new NhanVien
-            {
-                MaNV = maNV,
-                HoTen = hoTen,
-                Email = email,
-                MatKhau = matKhau,
-                DiaChi = diachi,
-                GioiTinh = gioitinh,
-                VaiTro = vaiTro,
-                TinhTrang = trangThai
-            };
-            string result = busNhanVien.UpdateNhanVien(nv);
+            //NhanVien nv = new NhanVien
+            //{
+            //    MaNV = maNV,
+            //    HoTen = hoTen,
+            //    Email = email,
+            //    MatKhau = matKhau,
+            //    DiaChi = diachi,
+            //    GioiTinh = gioitinh,
+            //    VaiTro = vaiTro,
+            //    TinhTrang = trangThai
+            //};
+            //string result = busNhanVien.UpdateNhanVien(nv);
 
-            if (string.IsNullOrEmpty(result))
-            {
-                MessageBox.Show("Cập nhật thông tin thành công");
-                ClearForm();
-                LoadDanhSachNhanVien();
-            }
-            else
-            {
-                MessageBox.Show(result);
-            }
+            //if (string.IsNullOrEmpty(result))
+            //{
+            //    MessageBox.Show("Cập nhật thông tin thành công");
+            //    ClearForm();
+            //    LoadDanhSachNhanVien();
+            //}
+            //else
+            //{
+            //    MessageBox.Show(result);
+            //}
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -196,24 +196,24 @@ namespace GUI_QLKS
             DialogResult result = MessageBox.Show($"Bạn có chắc chắn muốn xóa nhân viên {MaNV} - {name}?", "Xác nhận xóa",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
-            if (result == DialogResult.Yes)
-            {
-                BUSNhanVien bus = new BUSNhanVien();
-                string kq = bus.DeleteNhanVien(MaNV);
+            //if (result == DialogResult.Yes)
+            //{
+            //    BUSNhanVien bus = new BUSNhanVien();
+            //    string kq = bus.DeleteNhanVien(MaNV);
 
-                if (string.IsNullOrEmpty(kq))
-                {
-                    MessageBox.Show($"Xóa thông tin nhân viên {MaNV} - {name} thành công!", "Thông báo",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    ClearForm();
-                    LoadDanhSachNhanVien();
-                }
-                else
-                {
-                    MessageBox.Show(kq, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+            //    if (string.IsNullOrEmpty(kq))
+            //    {
+            //        MessageBox.Show($"Xóa thông tin nhân viên {MaNV} - {name} thành công!", "Thông báo",
+            //            MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //        ClearForm();
+            //        LoadDanhSachNhanVien();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show(kq, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    }
 
-            }
+            //}
         }
 
         private void btnLamMoi_Click(object sender, EventArgs e)

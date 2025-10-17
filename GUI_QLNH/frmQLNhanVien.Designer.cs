@@ -327,7 +327,7 @@
             guna2Panel2.Location = new Point(13, 602);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2Panel2.Size = new Size(285, 37);
+            guna2Panel2.Size = new Size(383, 37);
             guna2Panel2.TabIndex = 97;
             // 
             // rdoKhongHoatDong
@@ -339,7 +339,7 @@
             rdoKhongHoatDong.CheckedState.InnerColor = Color.White;
             rdoKhongHoatDong.CheckedState.InnerOffset = -4;
             rdoKhongHoatDong.ForeColor = Color.FromArgb(64, 0, 0);
-            rdoKhongHoatDong.Location = new Point(153, 3);
+            rdoKhongHoatDong.Location = new Point(240, 3);
             rdoKhongHoatDong.Name = "rdoKhongHoatDong";
             rdoKhongHoatDong.Size = new Size(97, 24);
             rdoKhongHoatDong.TabIndex = 1;
@@ -397,7 +397,6 @@
             txtMatKhau.Location = new Point(15, 440);
             txtMatKhau.Margin = new Padding(3, 5, 3, 5);
             txtMatKhau.Name = "txtMatKhau";
-            txtMatKhau.PasswordChar = '\0';
             txtMatKhau.PlaceholderText = "";
             txtMatKhau.SelectedText = "";
             txtMatKhau.ShadowDecoration.CustomizableEdges = customizableEdges16;
@@ -455,7 +454,6 @@
             txtEmail.Location = new Point(15, 292);
             txtEmail.Margin = new Padding(3, 5, 3, 5);
             txtEmail.Name = "txtEmail";
-            txtEmail.PasswordChar = '\0';
             txtEmail.PlaceholderText = "";
             txtEmail.SelectedText = "";
             txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges18;
@@ -490,7 +488,6 @@
             txtDiaChi.Location = new Point(17, 212);
             txtDiaChi.Margin = new Padding(3, 5, 3, 5);
             txtDiaChi.Name = "txtDiaChi";
-            txtDiaChi.PasswordChar = '\0';
             txtDiaChi.PlaceholderText = "";
             txtDiaChi.SelectedText = "";
             txtDiaChi.ShadowDecoration.CustomizableEdges = customizableEdges20;
@@ -524,7 +521,6 @@
             txtTenNhanVien.Location = new Point(17, 139);
             txtTenNhanVien.Margin = new Padding(3, 5, 3, 5);
             txtTenNhanVien.Name = "txtTenNhanVien";
-            txtTenNhanVien.PasswordChar = '\0';
             txtTenNhanVien.PlaceholderText = "";
             txtTenNhanVien.SelectedText = "";
             txtTenNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges22;
@@ -560,7 +556,6 @@
             txtMaNV.Location = new Point(17, 66);
             txtMaNV.Margin = new Padding(3, 5, 3, 5);
             txtMaNV.Name = "txtMaNV";
-            txtMaNV.PasswordChar = '\0';
             txtMaNV.PlaceholderText = "";
             txtMaNV.ReadOnly = true;
             txtMaNV.SelectedText = "";

@@ -39,14 +39,15 @@
             chkShowPassword = new Guna.UI2.WinForms.Guna2CheckBox();
             txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            linkLabel1 = new LinkLabel();
             SuspendLayout();
             // 
             // btnExit
             // 
             btnExit.BackColor = Color.Red;
-            btnExit.Font = new Font("Segoe UI", 11F);
+            btnExit.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             btnExit.ForeColor = Color.White;
-            btnExit.Location = new Point(751, 565);
+            btnExit.Location = new Point(781, 468);
             btnExit.Margin = new Padding(3, 4, 3, 4);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(366, 60);
@@ -57,10 +58,10 @@
             // 
             // btnLogin
             // 
-            btnLogin.BackColor = SystemColors.MenuHighlight;
-            btnLogin.Font = new Font("Segoe UI", 11F);
+            btnLogin.BackColor = Color.FromArgb(0, 192, 192);
+            btnLogin.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             btnLogin.ForeColor = Color.White;
-            btnLogin.Location = new Point(751, 473);
+            btnLogin.Location = new Point(781, 376);
             btnLogin.Margin = new Padding(3, 4, 3, 4);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(366, 60);
@@ -73,11 +74,11 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI", 9F);
-            label2.ForeColor = Color.Orange;
-            label2.Location = new Point(750, 292);
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(780, 195);
             label2.Name = "label2";
-            label2.Size = new Size(72, 20);
+            label2.Size = new Size(77, 20);
             label2.TabIndex = 6;
             label2.Text = "Mật Khẩu";
             // 
@@ -85,11 +86,11 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 9F);
-            label1.ForeColor = Color.Orange;
-            label1.Location = new Point(746, 179);
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(776, 82);
             label1.Name = "label1";
-            label1.Size = new Size(112, 20);
+            label1.Size = new Size(117, 20);
             label1.TabIndex = 7;
             label1.Text = "Tên Đăng Nhập";
             // 
@@ -101,11 +102,12 @@
             chkShowPassword.CheckedState.BorderRadius = 0;
             chkShowPassword.CheckedState.BorderThickness = 0;
             chkShowPassword.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
-            chkShowPassword.ForeColor = Color.Orange;
-            chkShowPassword.Location = new Point(751, 396);
+            chkShowPassword.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            chkShowPassword.ForeColor = Color.White;
+            chkShowPassword.Location = new Point(781, 299);
             chkShowPassword.Margin = new Padding(3, 4, 3, 4);
             chkShowPassword.Name = "chkShowPassword";
-            chkShowPassword.Size = new Size(129, 24);
+            chkShowPassword.Size = new Size(135, 24);
             chkShowPassword.TabIndex = 13;
             chkShowPassword.Text = "Hiện Mật Khẩu";
             chkShowPassword.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -128,7 +130,7 @@
             txtUsername.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtUsername.Font = new Font("Segoe UI", 9F);
             txtUsername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtUsername.Location = new Point(751, 218);
+            txtUsername.Location = new Point(781, 121);
             txtUsername.Margin = new Padding(3, 4, 3, 4);
             txtUsername.Name = "txtUsername";
             txtUsername.PlaceholderText = "";
@@ -150,7 +152,7 @@
             txtPassword.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtPassword.Font = new Font("Segoe UI", 9F);
             txtPassword.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtPassword.Location = new Point(751, 323);
+            txtPassword.Location = new Point(781, 226);
             txtPassword.Margin = new Padding(3, 4, 3, 4);
             txtPassword.Name = "txtPassword";
             txtPassword.PlaceholderText = "";
@@ -159,12 +161,26 @@
             txtPassword.Size = new Size(366, 60);
             txtPassword.TabIndex = 14;
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.BackColor = Color.Transparent;
+            linkLabel1.LinkColor = Color.WhiteSmoke;
+            linkLabel1.Location = new Point(1029, 303);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(111, 20);
+            linkLabel1.TabIndex = 15;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Quên Mật Khẩu";
+            // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = GUI_QLNH.Properties.Resources.ảnh_nhà_hàng;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1193, 793);
+            ClientSize = new Size(1177, 619);
+            Controls.Add(linkLabel1);
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
             Controls.Add(chkShowPassword);
@@ -190,5 +206,6 @@
         private Guna.UI2.WinForms.Guna2CheckBox chkShowPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
+        private LinkLabel linkLabel1;
     }
 }

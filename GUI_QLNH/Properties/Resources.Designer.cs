@@ -63,6 +63,16 @@ namespace GUI_QLNH.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ảnh_nhà_hàng {
+            get {
+                object obj = ResourceManager.GetObject("ảnh nhà hàng", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cua_hấp_bia_ {
             get {
                 object obj = ResourceManager.GetObject("cua hấp bia.", resourceCulture);
