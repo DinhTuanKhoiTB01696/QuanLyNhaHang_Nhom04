@@ -84,6 +84,7 @@
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button1.ForeColor = SystemColors.ActiveCaptionText;
             button1.Location = new Point(11, 26);
             button1.Name = "button1";
@@ -94,14 +95,14 @@
             // 
             // groupBox1
             // 
-            groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            groupBox1.BackColor = SystemColors.ControlDarkDark;
+            groupBox1.BackColor = Color.Navy;
             groupBox1.Controls.Add(groupBox2);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(button3);
             groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(button1);
+            groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox1.ForeColor = SystemColors.ButtonHighlight;
             groupBox1.Location = new Point(1, 3);
             groupBox1.Name = "groupBox1";
@@ -109,6 +110,7 @@
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "THÔNG TIN BÀN / PHÒNG";
+            groupBox1.Enter += groupBox1_Enter;
             // 
             // groupBox2
             // 
@@ -139,6 +141,7 @@
             // 
             // button16
             // 
+            button16.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button16.Location = new Point(226, 411);
             button16.Name = "button16";
             button16.Size = new Size(104, 71);
@@ -148,6 +151,7 @@
             // 
             // button17
             // 
+            button17.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button17.Location = new Point(116, 411);
             button17.Name = "button17";
             button17.Size = new Size(104, 71);
@@ -157,6 +161,7 @@
             // 
             // button18
             // 
+            button18.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button18.Location = new Point(6, 411);
             button18.Name = "button18";
             button18.Size = new Size(104, 71);
@@ -166,6 +171,7 @@
             // 
             // button19
             // 
+            button19.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button19.Location = new Point(226, 334);
             button19.Name = "button19";
             button19.Size = new Size(104, 71);
@@ -175,6 +181,7 @@
             // 
             // button20
             // 
+            button20.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button20.Location = new Point(116, 334);
             button20.Name = "button20";
             button20.Size = new Size(104, 71);
@@ -184,6 +191,7 @@
             // 
             // button21
             // 
+            button21.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button21.Location = new Point(6, 334);
             button21.Name = "button21";
             button21.Size = new Size(104, 71);
@@ -193,6 +201,7 @@
             // 
             // button15
             // 
+            button15.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button15.Location = new Point(226, 257);
             button15.Name = "button15";
             button15.Size = new Size(104, 71);
@@ -202,6 +211,7 @@
             // 
             // button14
             // 
+            button14.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button14.Location = new Point(116, 257);
             button14.Name = "button14";
             button14.Size = new Size(104, 71);
@@ -211,6 +221,7 @@
             // 
             // button13
             // 
+            button13.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button13.Location = new Point(6, 257);
             button13.Name = "button13";
             button13.Size = new Size(104, 71);
@@ -220,6 +231,7 @@
             // 
             // button12
             // 
+            button12.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button12.Location = new Point(226, 180);
             button12.Name = "button12";
             button12.Size = new Size(104, 71);
@@ -229,6 +241,7 @@
             // 
             // button11
             // 
+            button11.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button11.Location = new Point(116, 180);
             button11.Name = "button11";
             button11.Size = new Size(104, 71);
@@ -238,6 +251,7 @@
             // 
             // button10
             // 
+            button10.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button10.Location = new Point(6, 180);
             button10.Name = "button10";
             button10.Size = new Size(104, 71);
@@ -247,6 +261,7 @@
             // 
             // button9
             // 
+            button9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button9.ForeColor = SystemColors.ActiveCaptionText;
             button9.Location = new Point(225, 103);
             button9.Name = "button9";
@@ -257,6 +272,7 @@
             // 
             // button8
             // 
+            button8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button8.ForeColor = SystemColors.ActiveCaptionText;
             button8.Location = new Point(116, 103);
             button8.Name = "button8";
@@ -267,6 +283,7 @@
             // 
             // button7
             // 
+            button7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button7.ForeColor = SystemColors.ActiveCaptionText;
             button7.Location = new Point(6, 103);
             button7.Name = "button7";
@@ -277,6 +294,7 @@
             // 
             // button6
             // 
+            button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button6.ForeColor = SystemColors.ActiveCaptionText;
             button6.Location = new Point(226, 26);
             button6.Name = "button6";
@@ -287,6 +305,7 @@
             // 
             // button5
             // 
+            button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button5.ForeColor = SystemColors.ActiveCaptionText;
             button5.Location = new Point(116, 26);
             button5.Name = "button5";
@@ -297,20 +316,22 @@
             // 
             // button4
             // 
+            button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button4.ForeColor = SystemColors.ActiveCaptionText;
             button4.Location = new Point(6, 26);
             button4.Name = "button4";
             button4.Size = new Size(104, 71);
             button4.TabIndex = 5;
-            button4.Text = "BÀN 1";
+            button4.Text = "Bàn 1";
             button4.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label1.Location = new Point(230, 23);
             label1.Name = "label1";
-            label1.Size = new Size(70, 20);
+            label1.Size = new Size(76, 20);
             label1.TabIndex = 4;
             label1.Text = "Khu Vực: ";
             // 
@@ -324,6 +345,7 @@
             // 
             // button3
             // 
+            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button3.ForeColor = SystemColors.ActiveCaptionText;
             button3.Location = new Point(170, 26);
             button3.Name = "button3";
@@ -334,6 +356,7 @@
             // 
             // button2
             // 
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button2.ForeColor = SystemColors.ActiveCaptionText;
             button2.Location = new Point(110, 26);
             button2.Name = "button2";
@@ -344,8 +367,7 @@
             // 
             // groupBox3
             // 
-            groupBox3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            groupBox3.BackColor = SystemColors.ControlDarkDark;
+            groupBox3.BackColor = Color.Navy;
             groupBox3.Controls.Add(button25);
             groupBox3.Controls.Add(button26);
             groupBox3.Controls.Add(button27);
@@ -353,8 +375,9 @@
             groupBox3.Controls.Add(button23);
             groupBox3.Controls.Add(button22);
             groupBox3.Controls.Add(groupBox5);
+            groupBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox3.ForeColor = SystemColors.ButtonHighlight;
-            groupBox3.Location = new Point(354, 3);
+            groupBox3.Location = new Point(348, 3);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(651, 602);
             groupBox3.TabIndex = 2;
@@ -363,6 +386,7 @@
             // 
             // button25
             // 
+            button25.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button25.ForeColor = SystemColors.ActiveCaptionText;
             button25.Location = new Point(540, 26);
             button25.Name = "button25";
@@ -373,6 +397,7 @@
             // 
             // button26
             // 
+            button26.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button26.ForeColor = SystemColors.ActiveCaptionText;
             button26.Location = new Point(434, 26);
             button26.Name = "button26";
@@ -383,6 +408,7 @@
             // 
             // button27
             // 
+            button27.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button27.ForeColor = SystemColors.ActiveCaptionText;
             button27.Location = new Point(327, 26);
             button27.Name = "button27";
@@ -393,6 +419,7 @@
             // 
             // button24
             // 
+            button24.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button24.ForeColor = SystemColors.ActiveCaptionText;
             button24.Location = new Point(220, 26);
             button24.Name = "button24";
@@ -403,6 +430,7 @@
             // 
             // button23
             // 
+            button23.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button23.ForeColor = SystemColors.ActiveCaptionText;
             button23.Location = new Point(113, 26);
             button23.Name = "button23";
@@ -413,6 +441,7 @@
             // 
             // button22
             // 
+            button22.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button22.ForeColor = SystemColors.ActiveCaptionText;
             button22.Location = new Point(6, 26);
             button22.Name = "button22";
@@ -457,8 +486,7 @@
             // 
             // groupBox4
             // 
-            groupBox4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            groupBox4.BackColor = SystemColors.ControlDarkDark;
+            groupBox4.BackColor = Color.Navy;
             groupBox4.Controls.Add(button29);
             groupBox4.Controls.Add(button28);
             groupBox4.Controls.Add(label7);
@@ -468,8 +496,9 @@
             groupBox4.Controls.Add(label4);
             groupBox4.Controls.Add(label3);
             groupBox4.Controls.Add(label2);
+            groupBox4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox4.ForeColor = SystemColors.ButtonHighlight;
-            groupBox4.Location = new Point(1011, 3);
+            groupBox4.Location = new Point(1000, 3);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(586, 602);
             groupBox4.TabIndex = 3;
@@ -478,39 +507,45 @@
             // 
             // button29
             // 
+            button29.BackColor = SystemColors.ControlDark;
+            button29.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button29.ForeColor = SystemColors.ActiveCaptionText;
-            button29.Location = new Point(158, 530);
+            button29.Location = new Point(163, 529);
             button29.Name = "button29";
-            button29.Size = new Size(162, 59);
+            button29.Size = new Size(173, 59);
             button29.TabIndex = 9;
             button29.Text = "LƯU VÀ IN HÓA ĐƠN";
-            button29.UseVisualStyleBackColor = true;
+            button29.UseVisualStyleBackColor = false;
             // 
             // button28
             // 
+            button28.BackColor = Color.Lime;
+            button28.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button28.ForeColor = SystemColors.ActiveCaptionText;
             button28.Location = new Point(6, 530);
             button28.Name = "button28";
-            button28.Size = new Size(146, 59);
+            button28.Size = new Size(151, 59);
             button28.TabIndex = 8;
             button28.Text = "THANH TOÁN";
-            button28.UseVisualStyleBackColor = true;
+            button28.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
             label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label7.Location = new Point(97, 491);
             label7.Name = "label7";
-            label7.Size = new Size(21, 20);
+            label7.Size = new Size(25, 20);
             label7.TabIndex = 6;
             label7.Text = "....";
             // 
             // label8
             // 
             label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label8.Location = new Point(6, 491);
             label8.Name = "label8";
-            label8.Size = new Size(87, 20);
+            label8.Size = new Size(94, 20);
             label8.TabIndex = 5;
             label8.Text = "TỔNG TIỀN:";
             // 
@@ -527,45 +562,48 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label5.Location = new Point(113, 65);
             label5.Name = "label5";
-            label5.Size = new Size(21, 20);
+            label5.Size = new Size(25, 20);
             label5.TabIndex = 3;
             label5.Text = "....";
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label4.Location = new Point(58, 26);
             label4.Name = "label4";
-            label4.Size = new Size(21, 20);
+            label4.Size = new Size(25, 20);
             label4.TabIndex = 2;
             label4.Text = "....";
             // 
             // label3
             // 
             label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label3.Location = new Point(6, 65);
             label3.Name = "label3";
-            label3.Size = new Size(112, 20);
+            label3.Size = new Size(118, 20);
             label3.TabIndex = 1;
             label3.Text = "MÃ HÓA ĐƠN: ";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label2.Location = new Point(6, 26);
             label2.Name = "label2";
-            label2.Size = new Size(46, 20);
+            label2.Size = new Size(50, 20);
             label2.TabIndex = 0;
             label2.Text = "BÀN: ";
             label2.Click += label2_Click;
             // 
             // FrmMenu
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1722, 639);
+            AutoScaleMode = AutoScaleMode.None;
+            ClientSize = new Size(1585, 603);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);

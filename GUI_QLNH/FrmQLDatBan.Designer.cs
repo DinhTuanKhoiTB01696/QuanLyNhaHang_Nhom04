@@ -31,6 +31,10 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -53,10 +57,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             MaBan = new DataGridViewTextBoxColumn();
@@ -67,6 +67,8 @@
             TrangThai = new DataGridViewTextBoxColumn();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             groupBox1 = new GroupBox();
+            guna2NumericUpDown1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             groupBox2 = new GroupBox();
             guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -86,14 +88,12 @@
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             btnSua = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            guna2NumericUpDown1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2NumericUpDown1).BeginInit();
             groupBox2.SuspendLayout();
             panel2.SuspendLayout();
             guna2GroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2NumericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // guna2HtmlLabel2
@@ -133,7 +133,7 @@
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 51;
-            guna2DataGridView1.Size = new Size(904, 578);
+            guna2DataGridView1.Size = new Size(904, 567);
             guna2DataGridView1.TabIndex = 9;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -215,6 +215,35 @@
             groupBox1.TabIndex = 15;
             groupBox1.TabStop = false;
             groupBox1.Text = "🔍 TÌM BÀN PHÙ HỢP";
+            // 
+            // guna2NumericUpDown1
+            // 
+            guna2NumericUpDown1.BackColor = Color.Transparent;
+            guna2NumericUpDown1.CustomizableEdges = customizableEdges1;
+            guna2NumericUpDown1.Font = new Font("Segoe UI", 9F);
+            guna2NumericUpDown1.Location = new Point(88, 27);
+            guna2NumericUpDown1.Margin = new Padding(3, 4, 3, 4);
+            guna2NumericUpDown1.Name = "guna2NumericUpDown1";
+            guna2NumericUpDown1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2NumericUpDown1.Size = new Size(247, 34);
+            guna2NumericUpDown1.TabIndex = 20;
+            // 
+            // guna2Button3
+            // 
+            guna2Button3.BorderRadius = 10;
+            guna2Button3.CustomizableEdges = customizableEdges3;
+            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button3.Font = new Font("Segoe UI", 9F);
+            guna2Button3.ForeColor = Color.White;
+            guna2Button3.Location = new Point(347, 39);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2Button3.Size = new Size(91, 51);
+            guna2Button3.TabIndex = 95;
+            guna2Button3.Text = "Tìm Bàn";
             // 
             // guna2TextBox4
             // 
@@ -501,40 +530,11 @@
             guna2Button1.TabIndex = 91;
             guna2Button1.Text = "Đặt bàn";
             // 
-            // guna2Button3
-            // 
-            guna2Button3.BorderRadius = 10;
-            guna2Button3.CustomizableEdges = customizableEdges3;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.Font = new Font("Segoe UI", 9F);
-            guna2Button3.ForeColor = Color.White;
-            guna2Button3.Location = new Point(347, 39);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button3.Size = new Size(91, 51);
-            guna2Button3.TabIndex = 95;
-            guna2Button3.Text = "Tìm Bàn";
-            // 
-            // guna2NumericUpDown1
-            // 
-            guna2NumericUpDown1.BackColor = Color.Transparent;
-            guna2NumericUpDown1.CustomizableEdges = customizableEdges1;
-            guna2NumericUpDown1.Font = new Font("Segoe UI", 9F);
-            guna2NumericUpDown1.Location = new Point(88, 27);
-            guna2NumericUpDown1.Margin = new Padding(3, 4, 3, 4);
-            guna2NumericUpDown1.Name = "guna2NumericUpDown1";
-            guna2NumericUpDown1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2NumericUpDown1.Size = new Size(247, 34);
-            guna2NumericUpDown1.TabIndex = 20;
-            // 
             // FrmQLDatBan
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1378, 646);
+            ClientSize = new Size(1378, 645);
             Controls.Add(guna2GroupBox1);
             Controls.Add(panel2);
             Controls.Add(guna2DataGridView1);
@@ -544,11 +544,11 @@
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2NumericUpDown1).EndInit();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             panel2.ResumeLayout(false);
             guna2GroupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)guna2NumericUpDown1).EndInit();
             ResumeLayout(false);
         }
 

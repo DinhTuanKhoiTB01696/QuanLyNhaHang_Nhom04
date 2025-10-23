@@ -44,7 +44,6 @@
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             btnInBaoCao = new Guna.UI2.WinForms.Guna2Button();
             btnLamMoi = new Guna.UI2.WinForms.Guna2Button();
-            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             MaBan = new DataGridViewTextBoxColumn();
@@ -71,7 +70,10 @@
             button14 = new Button();
             button15 = new Button();
             button16 = new Button();
+            panel2 = new Panel();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Button2
@@ -121,15 +123,6 @@
             btnLamMoi.Size = new Size(101, 27);
             btnLamMoi.TabIndex = 17;
             btnLamMoi.Text = "Làm Mới";
-            // 
-            // guna2HtmlLabel1
-            // 
-            guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Location = new Point(369, 24);
-            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(212, 22);
-            guna2HtmlLabel1.TabIndex = 12;
-            guna2HtmlLabel1.Text = "QUẢN LÝ TRẠNG THÁI BÀN ĂN";
             // 
             // guna2HtmlLabel2
             // 
@@ -404,11 +397,33 @@
             button16.Text = "button16";
             button16.UseVisualStyleBackColor = true;
             // 
-            // QLTrangThaiBan
+            // panel2
+            // 
+            panel2.Controls.Add(label1);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1434, 69);
+            panel2.TabIndex = 43;
+            // 
+            // label1
+            // 
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            label1.ForeColor = SystemColors.HotTrack;
+            label1.Location = new Point(424, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(564, 46);
+            label1.TabIndex = 4;
+            label1.Text = "QUẢN LÝ TRẠNG THÁI BÀN ĂN";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // FrmQLTrangThaiBan
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1163, 842);
+            ClientSize = new Size(1434, 842);
+            Controls.Add(panel2);
             Controls.Add(button13);
             Controls.Add(button14);
             Controls.Add(button15);
@@ -432,10 +447,10 @@
             Controls.Add(guna2Button2);
             Controls.Add(btnInBaoCao);
             Controls.Add(btnLamMoi);
-            Controls.Add(guna2HtmlLabel1);
-            Name = "QLTrangThaiBan";
+            Name = "FrmQLTrangThaiBan";
             Text = "QLTrangThaiBan";
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -445,7 +460,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button btnInBaoCao;
         private Guna.UI2.WinForms.Guna2Button btnLamMoi;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private DataGridViewTextBoxColumn MaBan;
@@ -472,5 +486,7 @@
         private Button button14;
         private Button button15;
         private Button button16;
+        private Panel panel2;
+        private Label label1;
     }
 }
