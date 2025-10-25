@@ -97,6 +97,7 @@
             // 
             // panel2
             // 
+            panel2.BackColor = SystemColors.Control;
             panel2.Controls.Add(label1);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
@@ -108,7 +109,7 @@
             // 
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label1.ForeColor = SystemColors.HotTrack;
+            label1.ForeColor = Color.FromArgb(2, 136, 209);
             label1.Location = new Point(534, 9);
             label1.Name = "label1";
             label1.Size = new Size(380, 46);
@@ -118,6 +119,7 @@
             // 
             // guna2GroupBox1
             // 
+            guna2GroupBox1.BorderColor = Color.Black;
             guna2GroupBox1.Controls.Add(btnLamMoi);
             guna2GroupBox1.Controls.Add(dgrDanhSachNV);
             guna2GroupBox1.Controls.Add(btnXoa);
@@ -142,7 +144,7 @@
             guna2GroupBox1.CustomizableEdges = customizableEdges25;
             guna2GroupBox1.Dock = DockStyle.Left;
             guna2GroupBox1.Font = new Font("Segoe UI", 9F);
-            guna2GroupBox1.ForeColor = Color.FromArgb(125, 137, 149);
+            guna2GroupBox1.ForeColor = Color.Black;
             guna2GroupBox1.Location = new Point(0, 69);
             guna2GroupBox1.Name = "guna2GroupBox1";
             guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
@@ -158,6 +160,7 @@
             btnLamMoi.DisabledState.CustomBorderColor = Color.DarkGray;
             btnLamMoi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnLamMoi.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnLamMoi.FillColor = Color.FromArgb(2, 136, 209);
             btnLamMoi.Font = new Font("Segoe UI", 9F);
             btnLamMoi.ForeColor = Color.White;
             btnLamMoi.Location = new Point(300, 675);
@@ -235,6 +238,7 @@
             btnXoa.DisabledState.CustomBorderColor = Color.DarkGray;
             btnXoa.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnXoa.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnXoa.FillColor = Color.FromArgb(2, 136, 209);
             btnXoa.Font = new Font("Segoe UI", 9F);
             btnXoa.ForeColor = Color.White;
             btnXoa.Location = new Point(203, 675);
@@ -253,6 +257,7 @@
             btnSua.DisabledState.CustomBorderColor = Color.DarkGray;
             btnSua.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnSua.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSua.FillColor = Color.FromArgb(2, 136, 209);
             btnSua.Font = new Font("Segoe UI", 9F);
             btnSua.ForeColor = Color.White;
             btnSua.Location = new Point(104, 675);
@@ -307,6 +312,7 @@
             btnThem.DisabledState.CustomBorderColor = Color.DarkGray;
             btnThem.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnThem.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnThem.FillColor = Color.FromArgb(2, 136, 209);
             btnThem.Font = new Font("Segoe UI", 9F);
             btnThem.ForeColor = Color.White;
             btnThem.Location = new Point(7, 675);

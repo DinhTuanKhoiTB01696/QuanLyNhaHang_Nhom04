@@ -45,7 +45,7 @@
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.ControlDarkDark;
+            button1.BackColor = Color.Maroon;
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(396, 45);
@@ -57,7 +57,7 @@
             // 
             // button2
             // 
-            button2.BackColor = SystemColors.ControlDarkDark;
+            button2.BackColor = Color.FromArgb(0, 192, 0);
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             button2.ForeColor = SystemColors.ButtonHighlight;
             button2.Location = new Point(396, 316);
@@ -69,9 +69,9 @@
             // 
             // button3
             // 
-            button3.BackColor = SystemColors.ControlDarkDark;
+            button3.BackColor = Color.FromArgb(255, 167, 38);
             button3.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            button3.ForeColor = SystemColors.ButtonHighlight;
+            button3.ForeColor = Color.White;
             button3.Location = new Point(396, 448);
             button3.Name = "button3";
             button3.Size = new Size(189, 51);
@@ -81,7 +81,7 @@
             // 
             // button4
             // 
-            button4.BackColor = SystemColors.ControlDarkDark;
+            button4.BackColor = Color.Blue;
             button4.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             button4.ForeColor = SystemColors.ButtonHighlight;
             button4.Location = new Point(396, 184);
@@ -93,7 +93,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = SystemColors.AppWorkspace;
+            pictureBox1.BackColor = Color.FromArgb(2, 136, 209);
             pictureBox1.Location = new Point(1, 2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(297, 558);
@@ -105,7 +105,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label1.ForeColor = Color.Blue;
+            label1.ForeColor = Color.FromArgb(2, 136, 209);
             label1.Location = new Point(58, 14);
             label1.Name = "label1";
             label1.Size = new Size(171, 46);
@@ -117,7 +117,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label2.ForeColor = Color.Blue;
+            label2.ForeColor = Color.FromArgb(2, 136, 209);
             label2.Location = new Point(12, 60);
             label2.Name = "label2";
             label2.Size = new Size(56, 46);
@@ -135,7 +135,7 @@
             // 
             // button5
             // 
-            button5.BackColor = SystemColors.AppWorkspace;
+            button5.BackColor = SystemColors.ActiveCaption;
             button5.BackgroundImageLayout = ImageLayout.Stretch;
             button5.Font = new Font("Segoe UI", 12F);
             button5.Location = new Point(20, 164);
@@ -147,7 +147,7 @@
             // 
             // button6
             // 
-            button6.BackColor = SystemColors.AppWorkspace;
+            button6.BackColor = SystemColors.ActiveCaption;
             button6.Font = new Font("Segoe UI", 12F);
             button6.Location = new Point(20, 229);
             button6.Name = "button6";
@@ -158,7 +158,7 @@
             // 
             // button7
             // 
-            button7.BackColor = SystemColors.AppWorkspace;
+            button7.BackColor = SystemColors.ActiveCaption;
             button7.Font = new Font("Segoe UI", 12F);
             button7.Location = new Point(20, 293);
             button7.Name = "button7";

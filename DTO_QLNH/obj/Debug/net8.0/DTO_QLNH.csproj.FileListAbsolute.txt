@@ -5,6 +5,7 @@ C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_Q
 C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.AssemblyInfoInputs.cache
 C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.AssemblyInfo.cs
 C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.csproj.CoreCompileInputs.cache
+C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.sourcelink.json
 C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.dll
 C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\refint\DTO_QLNH.dll
 C:\Users\phucl\OneDrive\Desktop\QuanLyNhaHang_04\DTO_QLNH\obj\Debug\net8.0\DTO_QLNH.pdb

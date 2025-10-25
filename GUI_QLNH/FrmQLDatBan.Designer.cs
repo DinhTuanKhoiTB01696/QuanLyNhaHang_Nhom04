@@ -109,6 +109,7 @@
             // 
             dataGridViewCellStyle1.BackColor = Color.White;
             guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            guna2DataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
@@ -335,7 +336,7 @@
             // 
             guna2DateTimePicker1.Checked = true;
             guna2DateTimePicker1.CustomizableEdges = customizableEdges9;
-            guna2DateTimePicker1.FillColor = Color.SteelBlue;
+            guna2DateTimePicker1.FillColor = Color.FromArgb(2, 136, 209);
             guna2DateTimePicker1.Font = new Font("Segoe UI", 9F);
             guna2DateTimePicker1.ForeColor = Color.Black;
             guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
@@ -436,7 +437,7 @@
             // 
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label1.ForeColor = SystemColors.HotTrack;
+            label1.ForeColor = Color.FromArgb(2, 136, 209);
             label1.Location = new Point(534, 9);
             label1.Name = "label1";
             label1.Size = new Size(380, 46);
@@ -454,7 +455,7 @@
             guna2GroupBox1.Controls.Add(groupBox2);
             guna2GroupBox1.CustomizableEdges = customizableEdges25;
             guna2GroupBox1.Font = new Font("Segoe UI", 9F);
-            guna2GroupBox1.ForeColor = Color.FromArgb(125, 137, 149);
+            guna2GroupBox1.ForeColor = Color.Black;
             guna2GroupBox1.Location = new Point(12, 75);
             guna2GroupBox1.Name = "guna2GroupBox1";
             guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;

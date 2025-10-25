@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GUI_QLNH
 {
-    public partial class FrmQLTrangThaiBan: Form
+    public partial class FrmQLTrangThaiBan : Form
     {
         public FrmQLTrangThaiBan()
         {
             InitializeComponent();
+        }
+
+        private void FrmQLTrangThaiBan_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

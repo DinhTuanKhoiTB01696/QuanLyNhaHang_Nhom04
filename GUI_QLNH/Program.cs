@@ -1,4 +1,5 @@
 using GUI_QLKS;
+using QuanLyNhaHang;
 
 namespace GUI_QLNH
 {
@@ -13,7 +14,7 @@ namespace GUI_QLNH
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmLogin());
+            Application.Run(new FrmMain());
         }
     }
 }

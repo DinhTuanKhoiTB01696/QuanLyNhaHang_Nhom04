@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DAL_QLNH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1404d85cec22d0dc1fa994fda7d08a0a91fde0ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("DAL_QLNH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DAL_QLNH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

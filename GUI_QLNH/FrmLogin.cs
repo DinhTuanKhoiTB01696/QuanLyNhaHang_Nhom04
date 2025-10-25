@@ -23,8 +23,8 @@ namespace GUI_QLKS
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string username = txtUsername.Text;
-            string password = txtPassword.Text;
+            //string username = txtUsername.Text;
+            //string password = txtPassword.Text;
             //NhanVien nv = BUSNhanVien.DangNhap(username, password);
             //if (nv == null)
             //{
@@ -59,10 +59,10 @@ namespace GUI_QLKS
             }
         }
 
-        private void chkShowPassword_CheckedChanged(object sender, EventArgs e)
-        {
-            txtPassword.PasswordChar = chkShowPassword.Checked ? '\0' : '*';
-        }
+        //private void chkShowPassword_CheckedChanged(object sender, EventArgs e)
+        //{
+        //    txtPassword.PasswordChar = chkShowPassword.Checked ? '\0' : '*';
+        //}
 
         private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -73,6 +73,11 @@ namespace GUI_QLKS
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
         {
 
         }
