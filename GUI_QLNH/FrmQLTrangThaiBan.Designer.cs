@@ -80,12 +80,12 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             dgvDatBan.DefaultCellStyle = dataGridViewCellStyle3;
             dgvDatBan.GridColor = Color.FromArgb(231, 229, 255);
-            dgvDatBan.Location = new Point(50, 130);
+            dgvDatBan.Location = new Point(157, 179);
             dgvDatBan.Name = "dgvDatBan";
             dgvDatBan.RowHeadersVisible = false;
             dgvDatBan.RowHeadersWidth = 51;
             dgvDatBan.RowTemplate.Height = 22;
-            dgvDatBan.Size = new Size(880, 350);
+            dgvDatBan.Size = new Size(1354, 584);
             dgvDatBan.TabIndex = 1;
             dgvDatBan.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dgvDatBan.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -117,25 +117,25 @@
             txtSearch.CustomizableEdges = customizableEdges1;
             txtSearch.DefaultText = "";
             txtSearch.Font = new Font("Segoe UI", 9F);
-            txtSearch.Location = new Point(50, 80);
+            txtSearch.Location = new Point(157, 124);
             txtSearch.Margin = new Padding(3, 4, 3, 4);
             txtSearch.Name = "txtSearch";
             txtSearch.PlaceholderText = "Nhập tên khách hoặc số bàn...";
             txtSearch.SelectedText = "";
             txtSearch.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtSearch.Size = new Size(300, 36);
+            txtSearch.Size = new Size(485, 36);
             txtSearch.TabIndex = 2;
             // 
             // btnSearch
             // 
             btnSearch.BorderRadius = 6;
             btnSearch.CustomizableEdges = customizableEdges3;
-            btnSearch.Font = new Font("Segoe UI", 9F);
+            btnSearch.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnSearch.ForeColor = Color.White;
-            btnSearch.Location = new Point(370, 80);
+            btnSearch.Location = new Point(659, 124);
             btnSearch.Name = "btnSearch";
             btnSearch.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnSearch.Size = new Size(100, 36);
+            btnSearch.Size = new Size(163, 36);
             btnSearch.TabIndex = 3;
             btnSearch.Text = "Tìm";
             // 
@@ -143,12 +143,12 @@
             // 
             btnRefresh.BorderRadius = 6;
             btnRefresh.CustomizableEdges = customizableEdges5;
-            btnRefresh.Font = new Font("Segoe UI", 9F);
+            btnRefresh.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnRefresh.ForeColor = Color.White;
-            btnRefresh.Location = new Point(476, 80);
+            btnRefresh.Location = new Point(828, 124);
             btnRefresh.Name = "btnRefresh";
             btnRefresh.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnRefresh.Size = new Size(100, 36);
+            btnRefresh.Size = new Size(163, 36);
             btnRefresh.TabIndex = 4;
             btnRefresh.Text = "Làm mới";
             // 
@@ -159,13 +159,13 @@
             txtTable.CustomizableEdges = customizableEdges7;
             txtTable.DefaultText = "";
             txtTable.Font = new Font("Segoe UI", 9F);
-            txtTable.Location = new Point(50, 500);
+            txtTable.Location = new Point(155, 791);
             txtTable.Margin = new Padding(3, 4, 3, 4);
             txtTable.Name = "txtTable";
             txtTable.PlaceholderText = "Số bàn";
             txtTable.SelectedText = "";
             txtTable.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtTable.Size = new Size(250, 40);
+            txtTable.Size = new Size(328, 40);
             txtTable.TabIndex = 5;
             // 
             // txtCustomer
@@ -175,13 +175,13 @@
             txtCustomer.CustomizableEdges = customizableEdges9;
             txtCustomer.DefaultText = "";
             txtCustomer.Font = new Font("Segoe UI", 9F);
-            txtCustomer.Location = new Point(320, 500);
+            txtCustomer.Location = new Point(507, 791);
             txtCustomer.Margin = new Padding(3, 4, 3, 4);
             txtCustomer.Name = "txtCustomer";
             txtCustomer.PlaceholderText = "Tên khách hàng";
             txtCustomer.SelectedText = "";
             txtCustomer.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            txtCustomer.Size = new Size(250, 40);
+            txtCustomer.Size = new Size(423, 40);
             txtCustomer.TabIndex = 6;
             // 
             // dtpTime
@@ -189,15 +189,15 @@
             dtpTime.Checked = true;
             dtpTime.CustomizableEdges = customizableEdges11;
             dtpTime.FillColor = Color.FromArgb(2, 136, 209);
-            dtpTime.Font = new Font("Segoe UI", 9F);
+            dtpTime.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             dtpTime.ForeColor = Color.White;
             dtpTime.Format = DateTimePickerFormat.Long;
-            dtpTime.Location = new Point(590, 500);
+            dtpTime.Location = new Point(987, 791);
             dtpTime.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpTime.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpTime.Name = "dtpTime";
             dtpTime.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            dtpTime.Size = new Size(340, 40);
+            dtpTime.Size = new Size(524, 40);
             dtpTime.TabIndex = 7;
             dtpTime.Value = new DateTime(2025, 10, 25, 12, 42, 51, 777);
             // 
@@ -208,52 +208,56 @@
             txtNote.CustomizableEdges = customizableEdges13;
             txtNote.DefaultText = "";
             txtNote.Font = new Font("Segoe UI", 9F);
-            txtNote.Location = new Point(50, 560);
+            txtNote.Location = new Point(155, 859);
             txtNote.Margin = new Padding(3, 4, 3, 4);
             txtNote.Multiline = true;
             txtNote.Name = "txtNote";
             txtNote.PlaceholderText = "Ghi chú";
             txtNote.SelectedText = "";
             txtNote.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            txtNote.Size = new Size(520, 45);
+            txtNote.Size = new Size(775, 45);
             txtNote.TabIndex = 8;
             // 
             // btnAdd
             // 
+            btnAdd.BorderRadius = 10;
             btnAdd.CustomizableEdges = customizableEdges15;
             btnAdd.FillColor = Color.FromArgb(38, 166, 154);
-            btnAdd.Font = new Font("Segoe UI", 9F);
+            btnAdd.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnAdd.ForeColor = Color.White;
-            btnAdd.Location = new Point(590, 560);
+            btnAdd.Location = new Point(987, 859);
             btnAdd.Name = "btnAdd";
             btnAdd.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnAdd.Size = new Size(98, 45);
+            btnAdd.Size = new Size(163, 45);
             btnAdd.TabIndex = 9;
             btnAdd.Text = "Thêm";
             // 
             // btnEdit
             // 
+            btnEdit.BorderRadius = 10;
             btnEdit.CustomizableEdges = customizableEdges17;
             btnEdit.FillColor = Color.FromArgb(255, 167, 38);
-            btnEdit.Font = new Font("Segoe UI", 9F);
+            btnEdit.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnEdit.ForeColor = Color.White;
-            btnEdit.Location = new Point(714, 560);
+            btnEdit.Location = new Point(1167, 859);
             btnEdit.Name = "btnEdit";
             btnEdit.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            btnEdit.Size = new Size(98, 45);
+            btnEdit.Size = new Size(163, 45);
             btnEdit.TabIndex = 10;
             btnEdit.Text = "Sửa";
+            btnEdit.Click += btnEdit_Click;
             // 
             // btnDelete
             // 
+            btnDelete.BorderRadius = 10;
             btnDelete.CustomizableEdges = customizableEdges19;
             btnDelete.FillColor = Color.FromArgb(239, 83, 80);
-            btnDelete.Font = new Font("Segoe UI", 9F);
+            btnDelete.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnDelete.ForeColor = Color.White;
-            btnDelete.Location = new Point(832, 560);
+            btnDelete.Location = new Point(1348, 859);
             btnDelete.Name = "btnDelete";
             btnDelete.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            btnDelete.Size = new Size(98, 45);
+            btnDelete.Size = new Size(163, 45);
             btnDelete.TabIndex = 11;
             btnDelete.Text = "Xóa";
             // 
@@ -262,7 +266,7 @@
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             lblTitle.ForeColor = Color.FromArgb(2, 136, 209);
-            lblTitle.Location = new Point(218, 9);
+            lblTitle.Location = new Point(522, 9);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(543, 46);
             lblTitle.TabIndex = 0;
@@ -275,13 +279,13 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(986, 69);
+            panel2.Size = new Size(1799, 69);
             panel2.TabIndex = 12;
             // 
             // FrmQLTrangThaiBan
             // 
-            BackColor = Color.FromArgb(224, 247, 250);
-            ClientSize = new Size(986, 720);
+            BackColor = Color.LightCyan;
+            ClientSize = new Size(1799, 958);
             Controls.Add(panel2);
             Controls.Add(dgvDatBan);
             Controls.Add(txtSearch);
@@ -294,6 +298,7 @@
             Controls.Add(btnAdd);
             Controls.Add(btnEdit);
             Controls.Add(btnDelete);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "FrmQLTrangThaiBan";
             Text = "Quản Lý Đặt Bàn";
             Load += FrmQLTrangThaiBan_Load;

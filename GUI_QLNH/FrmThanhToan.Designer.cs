@@ -94,7 +94,7 @@
             guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             groupBox1 = new GroupBox();
-            guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
+            btnThoat = new Guna.UI2.WinForms.Guna2Button();
             guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -578,7 +578,7 @@
             // groupBox1
             // 
             groupBox1.BackColor = Color.White;
-            groupBox1.Controls.Add(guna2Button11);
+            groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(guna2Button9);
             groupBox1.Controls.Add(guna2HtmlLabel8);
             groupBox1.Controls.Add(guna2TextBox6);
@@ -602,23 +602,24 @@
             groupBox1.TabIndex = 25;
             groupBox1.TabStop = false;
             // 
-            // guna2Button11
+            // btnThoat
             // 
-            guna2Button11.BorderColor = Color.DimGray;
-            guna2Button11.CustomizableEdges = customizableEdges67;
-            guna2Button11.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button11.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button11.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button11.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button11.FillColor = Color.FromArgb(192, 0, 0);
-            guna2Button11.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            guna2Button11.ForeColor = Color.White;
-            guna2Button11.Location = new Point(281, 612);
-            guna2Button11.Name = "guna2Button11";
-            guna2Button11.ShadowDecoration.CustomizableEdges = customizableEdges68;
-            guna2Button11.Size = new Size(153, 56);
-            guna2Button11.TabIndex = 28;
-            guna2Button11.Text = "Thoát";
+            btnThoat.BorderColor = Color.DimGray;
+            btnThoat.CustomizableEdges = customizableEdges67;
+            btnThoat.DisabledState.BorderColor = Color.DarkGray;
+            btnThoat.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnThoat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnThoat.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnThoat.FillColor = Color.FromArgb(192, 0, 0);
+            btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnThoat.ForeColor = Color.White;
+            btnThoat.Location = new Point(281, 612);
+            btnThoat.Name = "btnThoat";
+            btnThoat.ShadowDecoration.CustomizableEdges = customizableEdges68;
+            btnThoat.Size = new Size(153, 56);
+            btnThoat.TabIndex = 28;
+            btnThoat.Text = "Thoát";
+            btnThoat.Click += btnThoat_Click;
             // 
             // guna2Button9
             // 
@@ -675,7 +676,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.White;
+            panel2.BackColor = Color.Green;
             panel2.Controls.Add(label5);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
@@ -687,7 +688,7 @@
             // 
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label5.ForeColor = Color.FromArgb(2, 136, 209);
+            label5.ForeColor = Color.White;
             label5.Location = new Point(290, 9);
             label5.Name = "label5";
             label5.Size = new Size(380, 46);
@@ -699,6 +700,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveBorder;
             ClientSize = new Size(959, 785);
             Controls.Add(panel2);
             Controls.Add(groupBox1);
@@ -707,7 +709,9 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "FrmThanhToan";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmThanhToan";
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
             guna2GroupBox1.ResumeLayout(false);
@@ -747,7 +751,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private GroupBox groupBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button11;
+        private Guna.UI2.WinForms.Guna2Button btnThoat;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;

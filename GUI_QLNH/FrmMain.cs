@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GUI_QLKS;
 using GUI_QLNH;
 
 namespace QuanLyNhaHang
@@ -52,7 +53,7 @@ namespace QuanLyNhaHang
 
         private void btnNhanVien_Click_1(object sender, EventArgs e)
         {
-            //Addcontrols(new FrmQLNhanVien());
+            Addcontrols(new frmQLNhanVien());
         }
 
         private void btnThanhToan_Click_1(object sender, EventArgs e)
@@ -62,21 +63,21 @@ namespace QuanLyNhaHang
 
         private void btnbaocaothongke_Click_1(object sender, EventArgs e)
         {
-            //Addcontrols(new FrmBaoCaoThongKe());
+            Addcontrols(new FrmBaoCaoVaThongKe());
         }
 
         private void btntrangthaimenu_Click_1(object sender, EventArgs e)
         {
-            //Addcontrols(new QLKhachHang());
+            Addcontrols(new FrmTrangThaiMenu());
         }
         private void btntrangthaidatban_Click_1(object sender, EventArgs e)
         {
-            //Addcontrols(new FrmTrangThaiDatBan());
+            Addcontrols(new FrmQLTrangThaiBan());
         }
 
         private void btnhome_Click(object sender, EventArgs e)
         {
-
+            Addcontrols(new FrmMenu());
         }
     }
 }

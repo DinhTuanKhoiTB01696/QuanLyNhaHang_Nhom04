@@ -35,22 +35,34 @@
             button1 = new Button();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
+            button30 = new Button();
+            button31 = new Button();
+            button32 = new Button();
             button16 = new Button();
             button17 = new Button();
             button18 = new Button();
+            button36 = new Button();
             button19 = new Button();
             button20 = new Button();
+            button37 = new Button();
             button21 = new Button();
             button15 = new Button();
+            button38 = new Button();
             button14 = new Button();
             button13 = new Button();
+            button39 = new Button();
             button12 = new Button();
             button11 = new Button();
+            button40 = new Button();
             button10 = new Button();
             button9 = new Button();
+            button41 = new Button();
             button8 = new Button();
             button7 = new Button();
+            button42 = new Button();
             button6 = new Button();
+            button43 = new Button();
+            button44 = new Button();
             button5 = new Button();
             button4 = new Button();
             label1 = new Label();
@@ -67,7 +79,7 @@
             button22 = new Button();
             groupBox4 = new GroupBox();
             button29 = new Button();
-            button28 = new Button();
+            btnThanhToan = new Button();
             label7 = new Label();
             label8 = new Label();
             dataGridView1 = new DataGridView();
@@ -75,12 +87,15 @@
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
+            panel2 = new Panel();
+            label6 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -105,9 +120,9 @@
             groupBox1.Controls.Add(button1);
             groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox1.ForeColor = SystemColors.ButtonHighlight;
-            groupBox1.Location = new Point(1, 3);
+            groupBox1.Location = new Point(2, 91);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(347, 602);
+            groupBox1.Size = new Size(347, 949);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "THÔNG TIN BÀN / PHÒNG";
@@ -115,29 +130,74 @@
             // groupBox2
             // 
             groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            groupBox2.Controls.Add(button30);
+            groupBox2.Controls.Add(button31);
+            groupBox2.Controls.Add(button32);
             groupBox2.Controls.Add(button16);
             groupBox2.Controls.Add(button17);
             groupBox2.Controls.Add(button18);
+            groupBox2.Controls.Add(button36);
             groupBox2.Controls.Add(button19);
             groupBox2.Controls.Add(button20);
+            groupBox2.Controls.Add(button37);
             groupBox2.Controls.Add(button21);
             groupBox2.Controls.Add(button15);
+            groupBox2.Controls.Add(button38);
             groupBox2.Controls.Add(button14);
             groupBox2.Controls.Add(button13);
+            groupBox2.Controls.Add(button39);
             groupBox2.Controls.Add(button12);
             groupBox2.Controls.Add(button11);
+            groupBox2.Controls.Add(button40);
             groupBox2.Controls.Add(button10);
             groupBox2.Controls.Add(button9);
+            groupBox2.Controls.Add(button41);
             groupBox2.Controls.Add(button8);
             groupBox2.Controls.Add(button7);
+            groupBox2.Controls.Add(button42);
             groupBox2.Controls.Add(button6);
+            groupBox2.Controls.Add(button43);
+            groupBox2.Controls.Add(button44);
             groupBox2.Controls.Add(button5);
             groupBox2.Controls.Add(button4);
             groupBox2.Location = new Point(6, 80);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(335, 516);
+            groupBox2.Size = new Size(335, 863);
             groupBox2.TabIndex = 6;
             groupBox2.TabStop = false;
+            // 
+            // button30
+            // 
+            button30.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button30.ForeColor = SystemColors.ActiveCaptionText;
+            button30.Location = new Point(226, 487);
+            button30.Name = "button30";
+            button30.Size = new Size(104, 71);
+            button30.TabIndex = 25;
+            button30.Text = "Bàn 21";
+            button30.UseVisualStyleBackColor = true;
+            // 
+            // button31
+            // 
+            button31.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button31.ForeColor = SystemColors.ActiveCaptionText;
+            button31.Location = new Point(116, 487);
+            button31.Name = "button31";
+            button31.Size = new Size(104, 71);
+            button31.TabIndex = 24;
+            button31.Text = "Bàn 20";
+            button31.UseVisualStyleBackColor = true;
+            // 
+            // button32
+            // 
+            button32.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button32.ForeColor = SystemColors.ActiveCaptionText;
+            button32.Location = new Point(6, 487);
+            button32.Name = "button32";
+            button32.Size = new Size(104, 71);
+            button32.TabIndex = 23;
+            button32.Text = "Bàn 19";
+            button32.UseVisualStyleBackColor = true;
             // 
             // button16
             // 
@@ -172,6 +232,17 @@
             button18.Text = "Bàn 16";
             button18.UseVisualStyleBackColor = true;
             // 
+            // button36
+            // 
+            button36.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button36.ForeColor = SystemColors.ActiveCaptionText;
+            button36.Location = new Point(226, 718);
+            button36.Name = "button36";
+            button36.Size = new Size(104, 71);
+            button36.TabIndex = 34;
+            button36.Text = "Bàn 30";
+            button36.UseVisualStyleBackColor = true;
+            // 
             // button19
             // 
             button19.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -193,6 +264,17 @@
             button20.TabIndex = 18;
             button20.Text = "Bàn 14";
             button20.UseVisualStyleBackColor = true;
+            // 
+            // button37
+            // 
+            button37.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button37.ForeColor = SystemColors.ActiveCaptionText;
+            button37.Location = new Point(116, 718);
+            button37.Name = "button37";
+            button37.Size = new Size(104, 71);
+            button37.TabIndex = 33;
+            button37.Text = "Bàn 29";
+            button37.UseVisualStyleBackColor = true;
             // 
             // button21
             // 
@@ -216,6 +298,17 @@
             button15.Text = "Bàn 12";
             button15.UseVisualStyleBackColor = true;
             // 
+            // button38
+            // 
+            button38.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button38.ForeColor = SystemColors.ActiveCaptionText;
+            button38.Location = new Point(6, 718);
+            button38.Name = "button38";
+            button38.Size = new Size(104, 71);
+            button38.TabIndex = 32;
+            button38.Text = "Bàn 28";
+            button38.UseVisualStyleBackColor = true;
+            // 
             // button14
             // 
             button14.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -237,6 +330,17 @@
             button13.TabIndex = 14;
             button13.Text = "Bàn 10";
             button13.UseVisualStyleBackColor = true;
+            // 
+            // button39
+            // 
+            button39.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button39.ForeColor = SystemColors.ActiveCaptionText;
+            button39.Location = new Point(226, 641);
+            button39.Name = "button39";
+            button39.Size = new Size(104, 71);
+            button39.TabIndex = 31;
+            button39.Text = "Bàn 27";
+            button39.UseVisualStyleBackColor = true;
             // 
             // button12
             // 
@@ -260,6 +364,17 @@
             button11.Text = "Bàn 8";
             button11.UseVisualStyleBackColor = true;
             // 
+            // button40
+            // 
+            button40.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button40.ForeColor = SystemColors.ActiveCaptionText;
+            button40.Location = new Point(116, 641);
+            button40.Name = "button40";
+            button40.Size = new Size(104, 71);
+            button40.TabIndex = 30;
+            button40.Text = "Bàn 26";
+            button40.UseVisualStyleBackColor = true;
+            // 
             // button10
             // 
             button10.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -281,6 +396,17 @@
             button9.TabIndex = 10;
             button9.Text = "Bàn 6";
             button9.UseVisualStyleBackColor = true;
+            // 
+            // button41
+            // 
+            button41.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button41.ForeColor = SystemColors.ActiveCaptionText;
+            button41.Location = new Point(6, 641);
+            button41.Name = "button41";
+            button41.Size = new Size(104, 71);
+            button41.TabIndex = 29;
+            button41.Text = "Bàn 25";
+            button41.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
@@ -304,6 +430,17 @@
             button7.Text = "Bàn 4";
             button7.UseVisualStyleBackColor = true;
             // 
+            // button42
+            // 
+            button42.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button42.ForeColor = SystemColors.ActiveCaptionText;
+            button42.Location = new Point(226, 564);
+            button42.Name = "button42";
+            button42.Size = new Size(104, 71);
+            button42.TabIndex = 28;
+            button42.Text = "Bàn 24";
+            button42.UseVisualStyleBackColor = true;
+            // 
             // button6
             // 
             button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -314,6 +451,28 @@
             button6.TabIndex = 7;
             button6.Text = "Bàn 3";
             button6.UseVisualStyleBackColor = true;
+            // 
+            // button43
+            // 
+            button43.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button43.ForeColor = SystemColors.ActiveCaptionText;
+            button43.Location = new Point(116, 564);
+            button43.Name = "button43";
+            button43.Size = new Size(104, 71);
+            button43.TabIndex = 27;
+            button43.Text = "Bàn 23";
+            button43.UseVisualStyleBackColor = true;
+            // 
+            // button44
+            // 
+            button44.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button44.ForeColor = SystemColors.ActiveCaptionText;
+            button44.Location = new Point(6, 564);
+            button44.Name = "button44";
+            button44.Size = new Size(104, 71);
+            button44.TabIndex = 26;
+            button44.Text = "Bàn 22";
+            button44.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -380,6 +539,7 @@
             // 
             // groupBox3
             // 
+            groupBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             groupBox3.BackColor = Color.Transparent;
             groupBox3.Controls.Add(guna2DataGridView1);
             groupBox3.Controls.Add(button25);
@@ -390,9 +550,9 @@
             groupBox3.Controls.Add(button22);
             groupBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox3.ForeColor = SystemColors.ButtonHighlight;
-            groupBox3.Location = new Point(348, 3);
+            groupBox3.Location = new Point(349, 91);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(651, 602);
+            groupBox3.Size = new Size(651, 949);
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
             groupBox3.Text = "DANH SÁCH MÓN ĂN";
@@ -401,6 +561,7 @@
             // 
             dataGridViewCellStyle1.BackColor = Color.White;
             guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            guna2DataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -424,7 +585,7 @@
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 51;
-            guna2DataGridView1.Size = new Size(639, 523);
+            guna2DataGridView1.Size = new Size(639, 874);
             guna2DataGridView1.TabIndex = 0;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -516,9 +677,10 @@
             // 
             // groupBox4
             // 
+            groupBox4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             groupBox4.BackColor = Color.Transparent;
             groupBox4.Controls.Add(button29);
-            groupBox4.Controls.Add(button28);
+            groupBox4.Controls.Add(btnThanhToan);
             groupBox4.Controls.Add(label7);
             groupBox4.Controls.Add(label8);
             groupBox4.Controls.Add(dataGridView1);
@@ -528,9 +690,9 @@
             groupBox4.Controls.Add(label2);
             groupBox4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox4.ForeColor = SystemColors.ButtonHighlight;
-            groupBox4.Location = new Point(1000, 3);
+            groupBox4.Location = new Point(1006, 91);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(586, 602);
+            groupBox4.Size = new Size(672, 1043);
             groupBox4.TabIndex = 3;
             groupBox4.TabStop = false;
             groupBox4.Text = "THÔNG TIN HÓA ĐƠN ";
@@ -540,31 +702,32 @@
             button29.BackColor = SystemColors.ControlDark;
             button29.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button29.ForeColor = SystemColors.ActiveCaptionText;
-            button29.Location = new Point(163, 529);
+            button29.Location = new Point(163, 798);
             button29.Name = "button29";
             button29.Size = new Size(173, 59);
             button29.TabIndex = 9;
             button29.Text = "LƯU VÀ IN HÓA ĐƠN";
             button29.UseVisualStyleBackColor = false;
             // 
-            // button28
+            // btnThanhToan
             // 
-            button28.BackColor = Color.Lime;
-            button28.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            button28.ForeColor = Color.Black;
-            button28.Location = new Point(6, 530);
-            button28.Name = "button28";
-            button28.Size = new Size(151, 59);
-            button28.TabIndex = 8;
-            button28.Text = "THANH TOÁN";
-            button28.UseVisualStyleBackColor = false;
+            btnThanhToan.BackColor = Color.Lime;
+            btnThanhToan.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnThanhToan.ForeColor = Color.Black;
+            btnThanhToan.Location = new Point(6, 799);
+            btnThanhToan.Name = "btnThanhToan";
+            btnThanhToan.Size = new Size(151, 59);
+            btnThanhToan.TabIndex = 8;
+            btnThanhToan.Text = "THANH TOÁN";
+            btnThanhToan.UseVisualStyleBackColor = false;
+            btnThanhToan.Click += btnThanhToan_Click;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label7.ForeColor = SystemColors.ActiveCaptionText;
-            label7.Location = new Point(97, 491);
+            label7.Location = new Point(97, 760);
             label7.Name = "label7";
             label7.Size = new Size(25, 20);
             label7.TabIndex = 6;
@@ -575,7 +738,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label8.ForeColor = SystemColors.ActiveCaptionText;
-            label8.Location = new Point(6, 491);
+            label8.Location = new Point(6, 760);
             label8.Name = "label8";
             label8.Size = new Size(94, 20);
             label8.TabIndex = 5;
@@ -583,12 +746,13 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(6, 106);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(574, 366);
+            dataGridView1.Size = new Size(666, 637);
             dataGridView1.TabIndex = 4;
             // 
             // label5
@@ -635,18 +799,44 @@
             label2.TabIndex = 0;
             label2.Text = "BÀN: ";
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(label6);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1678, 69);
+            panel2.TabIndex = 7;
+            // 
+            // label6
+            // 
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            label6.ForeColor = Color.FromArgb(2, 136, 209);
+            label6.Location = new Point(653, 9);
+            label6.Name = "label6";
+            label6.Size = new Size(380, 46);
+            label6.TabIndex = 4;
+            label6.Text = "MENU";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // FrmMenu
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1585, 603);
+            ClientSize = new Size(1678, 1043);
+            Controls.Add(panel2);
+            Controls.Add(groupBox1);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
-            Controls.Add(groupBox1);
             ForeColor = SystemColors.ButtonFace;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "FrmMenu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu";
+            WindowState = FormWindowState.Maximized;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -655,6 +845,7 @@
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -699,9 +890,23 @@
         private Button button23;
         private Button button22;
         private Button button29;
-        private Button button28;
+        private Button btnThanhToan;
         private Label label7;
         private Label label8;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Panel panel2;
+        private Label label6;
+        private Button button30;
+        private Button button31;
+        private Button button32;
+        private Button button36;
+        private Button button37;
+        private Button button38;
+        private Button button39;
+        private Button button40;
+        private Button button41;
+        private Button button42;
+        private Button button43;
+        private Button button44;
     }
 }

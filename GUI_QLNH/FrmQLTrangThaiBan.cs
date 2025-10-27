@@ -21,5 +21,10 @@ namespace GUI_QLNH
         {
 
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
