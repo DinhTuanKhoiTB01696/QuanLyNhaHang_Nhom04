@@ -1,0 +1,61 @@
+@model Assignment_NET201.Models.ProductVariant
+@{
+    ViewData["Title"] = "Add Variant";
+    Layout = "_AdminLayout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white py-3">
+                <h5 class="fw-bold mb-0">Add New Variant</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="CreateVariant" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="ProductId" value="@ViewBag.ProductId" />
+
+                    <div class="mb-3">
+                        <label asp-for="Size" class="form-label">Size (e.g. S, M, L, XL or 39, 40, 41)</label>
+                        <input asp-for="Size" class="form-control" placeholder="Enter size" required />
+                        <span asp-validation-for="Size" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Color" class="form-label">Color/Style</label>
+                        <input asp-for="Color" class="form-control" placeholder="Enter color or style" required />
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Quantity" class="form-label">Initial Quantity</label>
+                                <input asp-for="Quantity" type="number" class="form-control" value="0" min="0" />
+                                <span asp-validation-for="Quantity" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="PriceOverride" class="form-label">Price Override (Optional)</label>
+                                <input asp-for="PriceOverride" type="number" class="form-control" step="0.01" />
+                                <span asp-validation-for="PriceOverride" class="text-danger"></span>
+                                <small class="text-muted">Leave empty to use base price.</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-dark px-4">Create Variant</button>
+                        <a asp-action="ProductVariants" asp-route-productId="@ViewBag.ProductId"
+                            class="btn btn-light px-4">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
